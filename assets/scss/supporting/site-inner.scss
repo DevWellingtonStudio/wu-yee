@@ -1,0 +1,24 @@
+/* Site Inner
+----------------------------------------------------------------------------- */
+.site-inner {
+  overflow: hidden;
+    padding: $spacer*4 0;
+    .content {
+        margin-bottom: $spacer;
+        @include media-breakpoint-up(sm) {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.page-template-blocks {
+  .site-container {
+	.no-hero-margin {
+	  margin-bottom: 10px;
+	}
+	.site-inner {
+	  padding-top: 0;
+	  overflow: hidden;
+	}
+  }
+}

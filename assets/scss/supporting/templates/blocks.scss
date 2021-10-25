@@ -1,0 +1,32 @@
+/** Blocks SCSS
+================ */
+.page-template-blocks {
+  .site-container {
+	.no-hero-margin {
+	  margin: 0;
+	}
+	.site-inner {
+	  .wrap {
+		.row {
+		 #genesis-content {
+		   .page {
+			 .entry-content {
+			   .wp-block-genesis-blocks-gb-container {
+				 &.alignfull {
+				 margin-top: 0;
+			   }
+			   }
+			   .wp-block-genesis-blocks-gb-columns {
+				 &.alignfull {
+				   margin-top: 0;
+				 }
+			   }
+			 }
+		   }
+		 }
+		}
+	  }
+	}
+  }
+
+}
